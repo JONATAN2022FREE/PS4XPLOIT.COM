@@ -1,8 +1,8 @@
 # PS4 9.03 Kernel Exploit
 ---
 ## Summary
-In this project you will find an implementation that tries to make use of a filesystem bug for the Playstation 4 on firmware 9.00.
-The bug was found while diffing the 9.00 and 9.03 kernels. It will require a drive with a modified exfat filesystem. Successfully triggering it will allow you to run arbitrary code as kernel, to allow jailbreaking and kernel-level modifications to the system. will launch the usual payload launcher (on port 9020).
+In this project you will find an implementation that tries to make use of a filesystem bug for the Playstation 4 on firmware 9.03.
+The bug was found while diffing the 9.03 and 9.03 kernels. It will require a drive with a modified exfat filesystem. Successfully triggering it will allow you to run arbitrary code as kernel, to allow jailbreaking and kernel-level modifications to the system. will launch the usual payload launcher (on port 9020).
 
 ## Patches Included
 The following patches are applied to the kernel:
@@ -45,4 +45,4 @@ If you encounter issues with certain payloads you should report your issues to t
 
 ## Special Thanks
 - [Andy Nguyen](https://twitter.com/theflow0)
-- [sleirsgoevy](https://twitter.com/sleirsgoevy) - [9.00 Webkit exploit](https://github.com/sleirsgoevy/bad_hoist/tree/9.03)
+- [sleirsgoevy](https://twitter.com/sleirsgoevy) - [9.03 Webkit exploit](https://github.com/sleirsgoevy/bad_hoist/tree/9.03)
